@@ -1,0 +1,45 @@
+.container{
+	width: 800px;
+	margin: 80px auto;
+}
+
+.block-container {
+  display:flex;
+  justify-content: space-between;
+  padding:30px;
+}
+
+.block{
+  background-color: white;
+  width: 30px;
+  border-radius: 4px;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.block h2{
+  color: blue;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
